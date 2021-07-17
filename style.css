@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 10px 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+body {
+  background: url(background-img.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  padding: 50px;
+}
+
+main {
+  width: 60%;
+}
+
+#title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+form {
+  margin: 2em auto;
+}
+
+form > label, form > input, legend, select {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+form > label {
+  display: inline-block;
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+form > input {
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+
+#dropdown {
+  width: 150px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.select-boxes label{
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 10px;
+  font-size: 0.85em;
+}
+
+#improve-label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#submit {
+  display: block;
+  margin-top: 25px;
+  background-color: rgba(15, 115, 222, 0.865);
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 3em;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
